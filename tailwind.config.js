@@ -6,6 +6,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'cmd': '682px',
+      'cxl': '1394px',
+    },
     extend: {
       colors: {
         'Lime-Green': 'hsl(163, 72%, 41%)',
